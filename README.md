@@ -1,2 +1,5 @@
 # nebula assets
-assets for... well.. nebula (not associated with Nebula Services)
+
+Assets for... well... nebula (not associated with Nebula Services)
+
+michealsoft pls dont take out a class action lawsuit on me
