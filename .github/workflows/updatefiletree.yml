@@ -1,0 +1,20 @@
+name: Update file tree because github1s.com refuses to show me ma latest changes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update file tree scriopt
+        run: |
+          python readmehandler/updatefiletree.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
