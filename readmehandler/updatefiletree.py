@@ -9,14 +9,9 @@ def update_readme(file_list):
         readme_content = readme_file.read()
 
     placeholder = '<!-- tree-placeholder -->'
-    start_index = readme_content.find(placeholder)
-    end_index = start_index + len(placeholder)
+    updated_list = '\n'.join(f'- {file}' for file in file_list)
 
-    updated_content = (
-        readme_content[:start_index]
-        + '\n'.join(f'- {file}' for file in file_list)
-        + readme_content[end_index:]
-    )
+    updated_content = readme_content.replace(placeholder, updated_list)
 
     with open('README.md', 'w') as readme_file:
         readme_file.write(updated_content)
