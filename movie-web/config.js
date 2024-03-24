@@ -1,0 +1,8 @@
+window.__CONFIG__ = {
+  VITE_CORS_PROXY_URL: "https://mvwebproxy-nebula-games.netlify.app",
+  VITE_TMDB_READ_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYzA5NTZiZGYwZWIyNTk0YjVlODU3N2JkYWVlMmIwNCIsInN1YiI6IjY1ZmY4MjMxNDU5YWQ2MDE4N2Y4YmJjZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.q22chKAxjfNheSwxTlW6kpWAvgE7hpnONYi1ycWVx10",
+  VITE_DMCA_EMAIL: null,
+  VITE_NORMAL_ROUTER: false,
+  VITE_BACKEND_URL: null,
+  VITE_DISALLOWED_IDS: "",
+};
